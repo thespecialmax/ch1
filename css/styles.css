@@ -1,0 +1,156 @@
+.rodrvipvyy .pzltpdfkic {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.rodrvipvyy form .gajqlxkvrwtwdg {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+	border: 2px solid #00a0d2; /* Blue */
+}
+
+.rodrvipvyy form.vajedxosfp .gajqlxkvrwtwdg,
+.rodrvipvyy form.resetting .gajqlxkvrwtwdg,
+.rodrvipvyy form.submitting .gajqlxkvrwtwdg {
+	display: none;
+}
+
+.rodrvipvyy form.sent .gajqlxkvrwtwdg {
+	border-color: #46b450; /* Green */
+}
+
+.rodrvipvyy form.failed .gajqlxkvrwtwdg,
+.rodrvipvyy form.aborted .gajqlxkvrwtwdg {
+	border-color: #dc3232; /* Red */
+}
+
+.rodrvipvyy form.spam .gajqlxkvrwtwdg {
+	border-color: #f56e28; /* Orange */
+}
+
+.rodrvipvyy form.invalid .gajqlxkvrwtwdg,
+.rodrvipvyy form.unaccepted .gajqlxkvrwtwdg {
+	border-color: #ffb900; /* Yellow */
+}
+
+.ocyzjzpyggggyij {
+	position: relative;
+}
+
+.rodrvipvyy-not-valid-tip {
+	color: #dc3232;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+}
+
+.use-floating-validation-tip .rodrvipvyy-not-valid-tip {
+	position: relative;
+	top: -2ex;
+	left: 1em;
+	z-index: 100;
+	border: 1px solid #dc3232;
+	background: #fff;
+	padding: .2em .8em;
+	width: 24em;
+}
+
+.rodrvipvyy-list-item {
+	display: inline-block;
+	margin: 0 0 0 1em;
+}
+
+.rodrvipvyy-list-item-label::before,
+.rodrvipvyy-list-item-label::after {
+	content: " ";
+}
+
+.rodrvipvyy .ajax-loader {
+	visibility: hidden;
+	display: inline-block;
+	background-color: #23282d; /* Dark Gray 800 */
+	opacity: 0.75;
+	width: 24px;
+	height: 24px;
+	border: none;
+	border-radius: 100%;
+	padding: 0;
+	margin: 0 24px;
+	position: relative;
+}
+
+.rodrvipvyy form.submitting .ajax-loader {
+	visibility: visible;
+}
+
+.rodrvipvyy .ajax-loader::before {
+	content: '';
+	position: absolute;
+	background-color: #fbfbfc; /* Light Gray 100 */
+	top: 4px;
+	left: 4px;
+	width: 6px;
+	height: 6px;
+	border: none;
+	border-radius: 100%;
+	transform-origin: 8px 8px;
+	animation-name: spin;
+	animation-duration: 1000ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.rodrvipvyy .ajax-loader::before {
+		animation-name: blink;
+		animation-duration: 2000ms;
+	}
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes blink {
+	from {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.rodrvipvyy input[type="file"] {
+	cursor: pointer;
+}
+
+.rodrvipvyy input[type="file"]:disabled {
+	cursor: default;
+}
+
+.rodrvipvyy .qpxkejqksyx:disabled {
+	cursor: not-allowed;
+}
+
+.rodrvipvyy input[type="url"],
+.rodrvipvyy input[type="email"],
+.rodrvipvyy input[type="tel"] {
+	direction: ltr;
+}
